@@ -32,6 +32,18 @@ body {
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.sidebar > p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #cbd5e1;
+  margin-bottom: 50px;
+  padding: 15px 16px;
+  background: rgba(59, 130, 246, 0.1);
+  border-radius: 10px;
+  border-left: 3px solid #3b82f6;
+  line-height: 1.5;
+}
+
 .sidebar .logo {
   font-size: 2rem;
   font-weight: 800;
@@ -48,54 +60,83 @@ body {
 .nav-links {
   list-style: none;
   flex-grow: 1;
+  margin-top: 30px;
 }
 
 .nav-item {
   display: flex;
   align-items: center;
   gap: 15px;
-  padding: 15px 20px;
+  padding: 12px 16px;
   color: #94a3b8;
   text-decoration: none;
-  font-weight: 600;
-  border-radius: 12px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  border-radius: 8px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+  position: relative;
 }
 
 .nav-item:hover {
-  background: rgba(255, 255, 255, 0.05);
-  color: white;
-  transform: translateX(5px);
+  background: rgba(59, 130, 246, 0.15);
+  color: #e0f2fe;
+  transform: translateX(4px);
+}
+
+.nav-item::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: #3b82f6;
+  border-radius: 3px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-item:hover::before {
+  opacity: 1;
 }
 
 .sidebar-socials {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 15px;
-  padding: 30px 15px 20px 15px;
+  gap: 12px;
+  padding: 25px 15px 15px 15px;
   margin-top: auto;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .sidebar-socials a {
   color: #94a3b8;
-  font-size: 1.3rem;
-  width: 50px;
-  height: 50px;
+  font-size: 1.2rem;
+  width: 45px;
+  height: 45px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(59, 130, 246, 0.3);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .sidebar-socials a:hover {
-  color: white;
-  background: rgba(59, 130, 246, 0.2);
-  transform: translateY(-4px);
+  color: #3b82f6;
+  background: rgba(59, 130, 246, 0.15);
+  border-color: #3b82f6;
+  transform: translateY(-3px);
+}
+
+.sidebar p {
+  margin: 20px 0;
+  text-align: left;
+  line-height: 1.5;
 }
 
 /* ====================================================
