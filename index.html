@@ -19,7 +19,7 @@
   <!-- Sidebar -->
   <aside class="sidebar">
     <!-- <div class="logo"><span>H</span>R</div>   -->
-    <p>Hi, Welcome to my profile</p>
+    <p class="sidebar-greeting">Welcome To my Portfolio</p>
     <nav class="sidebar-nav">
       <ul class="nav-links">
         <li>
@@ -33,9 +33,6 @@
         </li>
         <li>
           <a href="#projects" class="nav-item"><span>Projects</span></a>
-        </li>
-        <li>
-          <a href="#achievements" class="nav-item"><span>Achievements</span></a>
         </li>
         <li>
           <a href="#contact" class="nav-item"><span>Contact</span></a>
@@ -54,19 +51,24 @@
   <main class="main-content">
     <section id="home">
       <div class="home-content">
-        <div class="welcome-badge">WELCOME TO MY PORTFOLIO</div>
-        <h1 class="home-title">
-          Aspiring <span class="text-accent">Frontend Developer</span> & Tech Enthusiast
+        <div class="name-intro fade-in-up">
+          Hi, I'm <span class="name-highlight">Hariharan R</span>
+        </div>
+        <h1 class="home-title fade-in-up">
+          Aspiring <span class="text-accent">Frontend Developer</span>
         </h1>
-        <p class="home-description">
+        <p class="home-description fade-in-up">
           Currently training at Freshworks STS Software Academy, building real-world projects with HTML, CSS,
           JavaScript, and Python. Focused on creating clean, efficient, and user-friendly web experiences.
         </p>
-        <div class="status-pill">
+        <div class="status-pill fade-in-up">
           <span class="status-dot"></span>
           Open to Frontend Developer Opportunities
         </div>
-        <div class="home-actions">
+        <div class="typing-container fade-in-up">
+          <span class="typing-text">Building modern web experiences with passion.</span>
+        </div>
+        <div class="home-actions fade-in-up">
           <a href="#projects" class="btn-primary">View Projects</a>
           <a href="./assets/resume.pdf" class="btn-secondary">
             Download Resume <i class="fas fa-arrow-down"></i>
@@ -85,6 +87,7 @@
         <div class="about-journey-layout">
           <div class="about-text-content">
             <h1>My Journey Into Tech</h1>
+            <p class="about-subtitle">From electronics student to aspiring frontend developer.</p>
             <p>
               I come from Chennai, and my journey into tech started with a Diploma
               in Electronics and Communication Engineering from Central
@@ -114,17 +117,25 @@
             </p>
           </div>
           <div class="about-visual-grid">
-            <div class="about-photo-card">Classroom Learning</div>
-            <div class="about-photo-card">Team Collaboration</div>
-            <div class="about-photo-card">Hackathon</div>
-            <div class="about-photo-card">Presentation Day</div>
+            <div class="about-photo-card reveal">
+              <img src="./assets/classroom.jpg" alt="Classroom Learning" />
+            </div>
+            <div class="about-photo-card reveal">
+              <img src="./assets/working-image-hari.jpeg" alt="Working" />
+            </div>
+            <div class="about-photo-card reveal">
+              <img src="./assets/Iconic_squad-img.jpeg" alt="Squad project" />
+            </div>
+            <div class="about-photo-card reveal">
+              <img src="./assets/presentation.jpg" alt="Presentation Day" />
+            </div>
           </div>
         </div>
 
         <div class="about-gains-section">
-          <h2>What I Gained From This Journey</h2>
+          <h2 class="reveal">What I Gained From This Journey</h2>
           <div class="gains-grid">
-            <div class="gain-card">
+            <div class="gain-card reveal">
               <h4>Technical Growth</h4>
               <ul>
                 <li>Strong JavaScript fundamentals</li>
@@ -133,7 +144,7 @@
                 <li>Clean project structure</li>
               </ul>
             </div>
-            <div class="gain-card">
+            <div class="gain-card reveal">
               <h4>Professional Growth</h4>
               <ul>
                 <li>Team collaboration</li>
@@ -142,7 +153,7 @@
                 <li>Presentation skills</li>
               </ul>
             </div>
-            <div class="gain-card">
+            <div class="gain-card reveal">
               <h4>Personal Growth</h4>
               <ul>
                 <li>Resilience</li>
@@ -150,6 +161,56 @@
                 <li>Confidence</li>
                 <li>Problem-solving mindset</li>
               </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Integrated Achievements -->
+        <div class="achievements-container" style="margin-top: 100px;">
+          <h2 class="section-title text-center reveal">Milestones & Achievements</h2>
+          <p class="achievement-subtitle reveal">
+            Key milestones reflecting my technical growth and personal achievements.
+          </p>
+
+          <!-- AWS course -->
+          <div class="achievement-item reveal">
+            <div class="achievement-certificate-wrapper">
+              <div class="achievement-year-badge">2025</div>
+              <img src="./assets/AWS_certificate.png" alt="AWS Certificate" class="achievement-certificate-img" />
+            </div>
+            <div class="achievement-box">
+              <h3>Completed AWS and DevOps Certified</h3>
+              <div class="achievement-tags">
+                <span class="achievement-tag">Certification</span>
+                <span class="achievement-tag">AWS</span>
+                <span class="achievement-tag">DevOps</span>
+                <span class="achievement-tag">Cloud</span>
+              </div>
+              <p>
+                I completed AWS and DevOp Certified in 2025 through Online Course.
+              </p>
+            </div>
+          </div>
+
+          <!-- Kabaddi -->
+          <div class="achievement-item reveal">
+            <div class="achievement-certificate-wrapper">
+              <div class="achievement-year-badge">2023</div>
+              <img src="./assets/Kabaddi-dt-certificate.jpeg" alt="Kabaddi Certificate"
+                class="achievement-certificate-img" />
+            </div>
+            <div class="achievement-box">
+              <h3>District Kabaddi Player</h3>
+              <div class="achievement-tags">
+                <span class="achievement-tag">Sports</span>
+                <span class="achievement-tag">District Level</span>
+                <span class="achievement-tag">Team Player</span>
+                <span class="achievement-tag">2023</span>
+              </div>
+              <p>
+                I got selected and represented chennai district in Kabaddi
+                tournament in 2023.
+              </p>
             </div>
           </div>
         </div>
@@ -163,28 +224,28 @@
       </div>
 
       <div class="tech-skills-container">
-        <div class="skill-item-card">
+        <div class="skill-item-card reveal">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
           <span>HTML</span>
         </div>
-        <div class="skill-item-card">
+        <div class="skill-item-card reveal">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
           <span>CSS</span>
         </div>
-        <div class="skill-item-card">
+        <div class="skill-item-card reveal">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" />
           <span>JavaScript</span>
         </div>
-        <div class="skill-item-card">
+        <div class="skill-item-card reveal">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
           <span>Python</span>
         </div>
-        <div class="skill-item-card">
+        <div class="skill-item-card reveal">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
             alt="PostgreSQL" />
           <span>PostgreSQL</span>
         </div>
-        <div class="skill-item-card">
+        <div class="skill-item-card reveal">
           <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="FastAPI" />
           <span>FastAPI</span>
         </div>
@@ -192,96 +253,94 @@
 
       <h2 class="tools-title">Tools & Workflow</h2>
       <div class="tools-grid">
-        <div class="skill-item-card">
+        <div class="skill-item-card reveal">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
           <span>GitHub</span>
         </div>
-        <div class="skill-item-card">
+        <div class="skill-item-card reveal">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" />
           <span>VS Code</span>
         </div>
-        <div class="skill-item-card">
+        <div class="skill-item-card reveal">
           <img src="https://www.wix.com/favicon.ico" alt="Wix" />
           <span>Wix</span>
         </div>
-        <div class="skill-item-card">
+        <div class="skill-item-card reveal">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma" />
           <span>Figma</span>
-        </div>
-      </div>
-      <div class="skills-section-header" style="margin-top: 80px;">
-        <h2 class="tools-title">Communication & Professional Assessment</h2>
-        <p class="skills-subtitle">Official performance evaluation from Freshworks STS Software Academy.</p>
-      </div>
-
-      <div class="assessment-grid">
-        <div class="tech-card skill-reading">
-          <div class="tech-header">
-            <h4>Reading</h4>
-            <span>70%</span>
-          </div>
-          <div class="tech-progress-track">
-            <div class="tech-progress-fill" style="width: 70%"></div>
-          </div>
-        </div>
-        <div class="tech-card skill-listening">
-          <div class="tech-header">
-            <h4>Listening</h4>
-            <span>49%</span>
-          </div>
-          <div class="tech-progress-track">
-            <div class="tech-progress-fill" style="width: 49%"></div>
-          </div>
-        </div>
-        <div class="tech-card skill-speaking">
-          <div class="tech-header">
-            <h4>Speaking</h4>
-            <span>50%</span>
-          </div>
-          <div class="tech-progress-track">
-            <div class="tech-progress-fill" style="width: 50%"></div>
-          </div>
-        </div>
-        <div class="tech-card skill-writing">
-          <div class="tech-header">
-            <h4>Writing</h4>
-            <span>70%</span>
-          </div>
-          <div class="tech-progress-track">
-            <div class="tech-progress-fill" style="width: 70%"></div>
-          </div>
-        </div>
-      </div>
-      <!-- Lifeskills- score -->
-      <div class="skills-section-header" style="margin-top: 60px;">
-        <h3 class="tools-title" style="font-size: 1.5rem;">Professional Skills Assessment</h3>
-      </div>
-      <div class="life-skills-wide-container">
-        <div class="tech-card skill-lifescore">
-          <div class="tech-header">
-            <h4>Life Skills Score</h4>
-            <span style="color: #10b981;">60%</span>
-          </div>
-          <div class="tech-progress-track">
-            <div class="tech-progress-fill" style="width: 60%"></div>
-          </div>
-          <p class="assessment-desc" style="text-align: left; margin-top: 15px; color: #64748b; font-size: 0.85rem;">
-            Evaluated on teamwork, time management, communication confidence, and professional behavior during academy
-            training.
-          </p>
         </div>
       </div>
     </section>
     <!-- Projects Section -->
     <section id="projects">
-      <h1 class="section-title-main">TECHNICAL PROJECTS</h1>
+      <!-- Lifeskills- Project section -->
+      <h1 class="section-title-main">LIFESKILLS PROJECTS</h1>
+      <p class="projects-intro">
+        Collaborative experiences and personal milestones that have shaped my professional character.
+      </p>
+      <div class="editorial-grid">
+        <article class="editorial-card reveal">
+          <div class="editorial-img-container">
+            <img src="./assets/Squad_power_img.png" alt="Squad Power" /><span class="editorial-card-tag">Training
+              Milestone</span>
+          </div>
+          <div class="editorial-content">
+            <h4>Squad Power Presentation</h4>
+            <p>
+              We did Squad Power Presentation on First Month, through this It
+              Helped me to overcome from stage fear and Improved my
+              Presentation Skills and express ideas clearly while presenting
+              and working in a team.
+            </p>
+            <a href="#" class="editorial-pill-btn">View Details <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="editorial-card reveal">
+          <div class="editorial-img-container">
+            <img src="./assets/Iconic_squad-img.jpeg" alt="Iconic Squad" /><span class="editorial-card-tag">Innovation
+              Lab</span>
+          </div>
+          <div class="editorial-content">
+            <h4>Comfort Cradle PR Belt</h4>
+            <p>
+              We Designed to help women suffering from period pain and we
+              successfully completed and presented. It is a team project,
+              through this I gained Problem Solving, Communication skills,
+              Teamwork.
+            </p>
+            <a href="https://willowy-semifreddo-0dee1e.netlify.app/" class="editorial-pill-btn">View Details <i
+                class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        <article class="editorial-card reveal">
+          <div class="editorial-img-container">
+            <img src="./assets/Workplace-study-org.jpg" alt="Workplace Study" /><span class="editorial-card-tag">Team
+              Excellence</span>
+          </div>
+          <div class="editorial-content">
+            <h4>Iconic Five Research</h4>
+            <p>
+              As a part of "Iconic-5" squad and we Secured 2nd Prize
+              researching roles in the IT industry through LinkedIn and
+              analyzing professional roles. This experience strengthened my
+              teamwork, communication, research skills and understanding how a
+              technology is applied in real-world organizations
+            </p>
+            <a href="https://gamma.app/docs/Product-Based-Company-The-Rubiks-Cube-7zqwivnxzkrbwm2"
+              class="editorial-pill-btn">View Details <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Technical Project section -->
+      <h1 class="section-title-main" style="margin-top: 100px;">TECHNICAL PROJECTS</h1>
       <p class="projects-intro">
         A showcase of web applications and technical tools built with modern frameworks and efficient code.
       </p>
       <div class="editorial-grid">
-        <article class="editorial-card">
+        <article class="editorial-card reveal">
           <div class="editorial-img-container">
-            <img src="./assets/BOH_image.png" alt="Bridge of Hope" /><span class="editorial-card-tag">Full Stack</span>
+            <img src="./assets/BOH-image.png" alt="Bridge of Hope" /><span class="editorial-card-tag">Full Stack</span>
           </div>
           <div class="editorial-content">
             <h4>Bridge Of Hope</h4>
@@ -290,11 +349,11 @@
               Through this I learnt HTMl, CSS, Javascript, Python,FastApi,
               postgresql and how to connect it to the frontend.
             </p>
-            <a href="https://github.com/HariharanRavi" target="_blank" class="editorial-pill-btn">View Live <i
+            <a href="https://bridge-of-hope-frontend.vercel.app" target="_blank" class="editorial-pill-btn">View Live <i
                 class="fas fa-arrow-right"></i></a>
           </div>
         </article>
-        <article class="editorial-card">
+        <article class="editorial-card reveal">
           <div class="editorial-img-container">
             <img src="./assets/Screenshot 2025-08-31 150034.png" alt="Elite Appliances" /><span
               class="editorial-card-tag">Static Website</span>
@@ -309,110 +368,6 @@
               class="editorial-pill-btn">View Live <i class="fas fa-arrow-right"></i></a>
           </div>
         </article>
-      </div>
-      <!-- Lifeskills- Project section -->
-      <h1 class="section-title-main" style="margin-top: 100px;">LIFESKILLS PROJECTS</h1>
-      <p class="projects-intro">
-        Collaborative experiences and personal milestones that have shaped my professional character.
-      </p>
-      <div class="editorial-grid">
-        <article class="editorial-card">
-          <div class="editorial-img-container">
-            <img src="./assets/WhatsApp Image 2026-01-08 at 5.42.13 PM.jpeg" alt="Cradle Belt" /><span
-              class="editorial-card-tag">Innovation Lab</span>
-          </div>
-          <div class="editorial-content">
-            <h4>Comfort Cradle PR Belt</h4>
-            <p>
-              We Designed to help women suffering from period pain and we
-              successfully completed and presented. It is a team project,
-              through this I gained Problem Solving, Communication skills,
-              Teamwork.
-            </p>
-          </div>
-        </article>
-        <article class="editorial-card">
-          <div class="editorial-img-container">
-            <img src="./assets/Squad_power_img.png" alt="Squad Power" /><span class="editorial-card-tag">Training
-              Milestone</span>
-          </div>
-          <div class="editorial-content">
-            <h4>Squad Power Presentation</h4>
-            <p>
-              We did Squad Power Presentation on First Month, through this It
-              Helped me to overcome from stage fear and Improved my
-              Presentation Skills and express ideas clearly while presenting
-              and working in a team.
-            </p>
-          </div>
-        </article>
-        <article class="editorial-card">
-          <div class="editorial-img-container">
-            <img src="./assets/Workplace-study-org.jpg" alt="Workplace Study" /><span class="editorial-card-tag">Team
-              Excellence</span>
-          </div>
-          <div class="editorial-content">
-            <h4>Iconic Five Research</h4>
-            <p>
-              As a part of "Iconic-5" squad and we Secured 2nd Prize
-              researching roles in the IT industry through LinkedIn and
-              analyzing professional roles. This experience strengthened my
-              teamwork, communication, research skills and understanding how a
-              technology is applied in real-world organizations
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
-    <!-- Acheivements Section -->
-    <section id="achievements">
-      <div class="achievements-container">
-        <h2 class="section-title text-center">Milestones & Achievements</h2>
-        <p class="achievement-subtitle">
-          Key milestones reflecting my technical growth and personal achievements.
-        </p>
-
-        <!-- AWS course -->
-        <div class="achievement-item">
-          <div class="achievement-certificate-wrapper">
-            <div class="achievement-year-badge">2025</div>
-            <img src="./assets/AWS_certificate.png" alt="AWS Certificate" class="achievement-certificate-img" />
-          </div>
-          <div class="achievement-box">
-            <h3>Completed AWS and DevOps Certified</h3>
-            <div class="achievement-tags">
-              <span class="achievement-tag">Certification</span>
-              <span class="achievement-tag">AWS</span>
-              <span class="achievement-tag">DevOps</span>
-              <span class="achievement-tag">Cloud</span>
-            </div>
-            <p>
-              I completed AWS and DevOp Certified in 2025 through Online Course.
-            </p>
-          </div>
-        </div>
-
-        <!-- Kabaddi -->
-        <div class="achievement-item">
-          <div class="achievement-certificate-wrapper">
-            <div class="achievement-year-badge">2023</div>
-            <img src="./assets/Kabaddi-dt-certificate.jpeg" alt="Kabaddi Certificate"
-              class="achievement-certificate-img" />
-          </div>
-          <div class="achievement-box">
-            <h3>District Kabaddi Player</h3>
-            <div class="achievement-tags">
-              <span class="achievement-tag">Sports</span>
-              <span class="achievement-tag">District Level</span>
-              <span class="achievement-tag">Team Player</span>
-              <span class="achievement-tag">2023</span>
-            </div>
-            <p>
-              I got selected and represented chennai district in Kabaddi
-              tournament in 2023.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
     <!-- Contact us section -->
@@ -433,7 +388,7 @@
 
         <div class="contact-grid-layout">
           <!-- Email -->
-          <a href="mailto:hariharar0803@gmail.com" class="contact-card-new">
+          <a href="mailto:hariharar0803@gmail.com" class="contact-card-new reveal">
             <div class="contact-icon-box">
               <i class="fas fa-envelope"></i>
             </div>
@@ -443,7 +398,7 @@
             </div>
           </a>
           <!-- Mobile -->
-          <a href="tel:9360923188" class="contact-card-new">
+          <a href="tel:9360923188" class="contact-card-new reveal">
             <div class="contact-icon-box"><i class="fas fa-phone"></i></div>
             <div class="contact-info">
               <span class="contact-label-text">PHONE NUMBER</span>
@@ -451,7 +406,7 @@
             </div>
           </a>
           <!-- GitHub -->
-          <a href="https://github.com/HariharanRavi" target="_blank" class="contact-card-new">
+          <a href="https://github.com/HariharanRavi" target="_blank" class="contact-card-new reveal">
             <div class="contact-icon-box"><i class="fab fa-github"></i></div>
             <div class="contact-info">
               <span class="contact-label-text">DEVELOPER HANDLE</span>
@@ -459,7 +414,7 @@
             </div>
           </a>
           <!-- Linked-In -->
-          <a href="https://linkedin.com/in/hariharan-ravi-a2a5a5255" target="_blank" class="contact-card-new">
+          <a href="https://linkedin.com/in/hariharan-ravi-a2a5a5255" target="_blank" class="contact-card-new reveal">
             <div class="contact-icon-box">
               <i class="fab fa-linkedin-in"></i>
             </div>
@@ -472,6 +427,52 @@
       </div>
     </section>
   </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const sections = document.querySelectorAll('section');
+      const navItems = document.querySelectorAll('.nav-item');
+      const revealElements = document.querySelectorAll('.reveal');
+
+      // Section Highlighting
+      const sectionOptions = {
+        root: null,
+        rootMargin: '-20% 0px -70% 0px',
+        threshold: 0
+      };
+
+      const sectionObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            navItems.forEach(item => {
+              item.classList.remove('active');
+              if (item.getAttribute('href') === `#${id}`) {
+                item.classList.add('active');
+              }
+            });
+          }
+        });
+      }, sectionOptions);
+
+      // Reveal Animations
+      const revealOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('active');
+            revealObserver.unobserve(entry.target);
+          }
+        });
+      }, revealOptions);
+
+      sections.forEach(section => sectionObserver.observe(section));
+      revealElements.forEach(el => revealObserver.observe(el));
+    });
+  </script>
 </body>
 
 </html>
