@@ -19,7 +19,12 @@
   <!-- Sidebar -->
   <aside class="sidebar">
     <!-- <div class="logo"><span>H</span>R</div>   -->
-    <p class="sidebar-greeting">Welcome To my Portfolio</p>
+    <div class="sidebar-greeting-card"
+      <div class="greeting-text">
+        <span class="welcome-text">Welcome to my</span>
+        <span class="journey-text">Journey</span>
+      </div>
+    </div>
     <nav class="sidebar-nav">
       <ul class="nav-links">
         <li>
@@ -70,8 +75,8 @@
         </div>
         <div class="home-actions fade-in-up">
           <a href="#projects" class="btn-primary">View Projects</a>
-          <a href="./assets/resume.pdf" class="btn-secondary">
-            Download Resume <i class="fas fa-arrow-down"></i>
+          <a href="#contact" class="btn-secondary">
+            Get in Touch <i class="fas fa-arrow-down"></i>
           </a>
         </div>
       </div>
@@ -84,54 +89,61 @@
     <!-- About-us Section -->
     <section id="about">
       <div class="about-container">
-        <div class="about-journey-layout">
-          <div class="about-text-content">
-            <h1>My Journey Into Tech</h1>
-            <p class="about-subtitle">From electronics student to aspiring frontend developer.</p>
-            <p>
-              I come from Chennai, and my journey into tech started with a Diploma in Electronics and Communication
-              Engineering from Central Polytechnic College, Tharamani. From the beginning, I was always curious to learn
-              new technologies and explore different fields.
-            </p>
-            <p>
-              During my college time, I completed internships in different places and slowly developed an interest in
-              cloud computing. To support my earnings, I worked as a Zomato delivery partner for more than one year and
-              did part-time jobs. I earned and saved money to complete my AWS DevOps course successfully.
-            </p>
-            <p>
-              After finishing the course, I started searching for jobs, but I faced many rejections. I was rejected by
-              more than 20 companies. However, I did not give up. Later, I heard about Freshworks STS Software Academy.
-              I prepared seriously, attended the examination and the interview, and got selected among 2000+ students.
-            </p>
-            <p>
-              That moment became a turning point in my life. Now, at the academy, I am gaining strong technical skills,
-              real-world project experience, and professional knowledge. I am also building my own projects to improve
-              continuously. This is my journey so far, and I am working hard to grow further in my career.
-            </p>
+        <div class="about-story-timeline">
+          <!-- Story Block 1: The Beginning & The Hustle -->
+          <div class="story-block reveal">
+            <div class="story-text">
+              <h1>My Journey Into Tech</h1>
+              <p class="about-subtitle">From electronics student to aspiring frontend developer.</p>
+              <p>
+                I come from Chennai, and my journey into tech started with a Diploma in Electronics and Communication
+                Engineering from Central Polytechnic College, Tharamani. From the beginning, I was always curious to learn
+                new technologies and explore different fields.
+              </p>
+              <p>
+                During my college time, I completed internships in different places and slowly developed an interest in
+                cloud computing. To support my earnings, I worked as a Zomato delivery partner for more than one year and
+                did part-time jobs. I earned and saved money to complete my AWS DevOps course successfully.
+              </p>
+            </div>
+            <div class="story-image">
+              <div class="image-frame">
+                <img src="./assets/FSSA_workplace.jpeg" alt="Where it started" />
+                <span class="image-caption">The Beginning</span>
+              </div>
+            </div>
           </div>
-          <div class="about-visual-grid">
-            <div class="about-photo-card reveal">
-              <img src="./assets/FSSA_workplace.jpeg" alt="Classroom Learning" />
+
+          <!-- Story Block 2: The Turning Point & Growth -->
+          <div class="story-block reverse reveal">
+            <div class="story-text">
+              <p>
+                After finishing the course, I started searching for jobs, but I faced many rejections. I was rejected by
+                more than 20 companies. However, I did not give up. Later, I heard about Freshworks STS Software Academy.
+                I prepared seriously, attended the examination and the interview, and got selected among 2000+ students.
+              </p>
+              <p>
+                That moment became a turning point in my life. Now, at the academy, I am gaining strong technical skills,
+                real-world project experience, and professional knowledge. I am also building my own projects to improve
+                continuously. This is my journey so far, and I am working hard to grow further in my career.
+              </p>
             </div>
-            <div class="about-photo-card reveal">
-              <img src="./assets/working-image-hari.jpeg" alt="Working" />
-            </div>
-            <div class="about-photo-card reveal">
-              <img src="./assets/Iconic_squad-img.jpeg" alt="Squad project" />
-            </div>
-            <div class="about-photo-card reveal">
-              <img src="./assets/presentation.jpg" alt="Presentation Day" />
+            <div class="story-image">
+              <div class="image-frame">
+                <img src="./assets/FSSA-B5-img.png" alt="Academy Journey" />
+                <span class="image-caption">Academy Growth</span>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="about-gains-section">
+        <!-- <div class="about-gains-section">
           <h2 class="reveal">What I Gained From This Journey</h2>
           <div class="gains-grid">
             <div class="gain-card reveal">
               <h4>Technical Growth</h4>
               <ul>
-                <li>Strong JavaScript fundamentals</li>
+                <li>JavaScript fundamentals</li>
                 <li>API integration</li>
                 <li>Git workflow</li>
                 <li>Clean project structure</li>
@@ -156,7 +168,7 @@
               </ul>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <!-- Integrated Achievements -->
         <div class="achievements-container" style="margin-top: 100px;">
@@ -263,13 +275,49 @@
           <span>Figma</span>
         </div>
       </div>
+
+      <div class="communication-skills-section reveal">
+        <div class="comm-header">
+          <h2>Communication Skills</h2>
+        </div>
+        <div class="comm-grid">
+          <div class="comm-item">
+            <div class="comm-icon"><i class="fas fa-book-open"></i></div>
+            <div class="comm-info">
+              <span class="comm-label">Reading</span>
+              <span class="comm-level">B2 Intermediate</span>
+            </div>
+          </div>
+          <div class="comm-item">
+            <div class="comm-info">
+              <div class="comm-icon"><i class="fas fa-pen-nib"></i></div>
+              <span class="comm-label">Writing</span>
+              <span class="comm-level">B2 Intermediate</span>
+            </div>
+          </div>
+          <div class="comm-item">
+            <div class="comm-icon"><i class="fas fa-headphones"></i></div>
+            <div class="comm-info">
+              <span class="comm-label">Listening</span>
+              <span class="comm-level">B2 Upper Inter</span>
+            </div>
+          </div>
+          <div class="comm-item">
+            <div class="comm-icon"><i class="fas fa-comment-dots"></i></div>
+            <div class="comm-info">
+              <span class="comm-label">Speaking</span>
+              <span class="comm-level">B2 Upper Inter</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Projects Section -->
     <section id="projects">
       <!-- Lifeskills- Project section -->
       <h1 class="section-title-main">LIFESKILLS PROJECTS</h1>
       <p class="projects-intro">
-        Collaborative experiences and personal milestones that have shaped my professional character.
+       Projects with teams and personal achievements that contributed to my professional development.
       </p>
       <div class="editorial-grid">
         <article class="editorial-card reveal">
@@ -280,12 +328,12 @@
           <div class="editorial-content">
             <h4>Squad Power Presentation</h4>
             <p>
-              We did Squad Power Presentation on First Month, through this It
+              We did Squad Power Presentation on First Month, through this. It
               Helped me to overcome from stage fear and Improved my
               Presentation Skills and express ideas clearly while presenting
               and working in a team.
             </p>
-            <a href="#" class="editorial-pill-btn">View Details <i class="fas fa-arrow-right"></i></a>
+            <a href="https://www.canva.com/design/DAGt3V7Hq6E/Pk1CgqBmWkk4GZug6QSpIw/edit" class="editorial-pill-btn">View Details <i class="fas fa-arrow-right"></i></a>
           </div>
         </article>
         <article class="editorial-card reveal">
@@ -328,12 +376,12 @@
       <!-- Technical Project section -->
       <h1 class="section-title-main" style="margin-top: 100px;">TECHNICAL PROJECTS</h1>
       <p class="projects-intro">
-        A showcase of web applications and technical tools built with modern frameworks and efficient code.
+       A place where I showcase my web development projects and the technologies I have learned.
       </p>
       <div class="editorial-grid">
         <article class="editorial-card reveal">
           <div class="editorial-img-container">
-            <img src="./assets/BOH-image.png" alt="Bridge of Hope" /><span class="editorial-card-tag">Full Stack</span>
+            <img src="./assets/BOH_final_image.png" alt="Bridge of Hope" /><span class="editorial-card-tag">Full Stack</span>
           </div>
           <div class="editorial-content">
             <h4>Bridge Of Hope</h4>
@@ -348,7 +396,7 @@
         </article>
         <article class="editorial-card reveal">
           <div class="editorial-img-container">
-            <img src="./assets/Screenshot 2025-08-31 150034.png" alt="Elite Appliances" /><span
+            <img src="./assets/Elite_image.png" alt="Elite Appliances" /><span
               class="editorial-card-tag">Static Website</span>
           </div>
           <div class="editorial-content">
@@ -367,17 +415,17 @@
     <section id="contact">
       <div class="contact-container">
         <h2 class="section-title text-center">Get in Touch</h2>
-        <p class="contact-intro-text">
+        <!-- <p class="contact-intro-text">
           I'm always open to discussing new projects, creative ideas or
           opportunities to be part of your visions.
-        </p>
+        </p> -->
         <div class="contact-status">
           <span class="status-dot"></span>
           Open to Frontend Developer Opportunities
         </div>
-        <div class="contact-hire">
+        <!-- <div class="contact-hire">
           <a href="mailto:hariharar0803@gmail.com" class="btn-hire-me">Hire Me</a>
-        </div>
+        </div> -->
 
         <div class="contact-grid-layout">
           <!-- Email -->
